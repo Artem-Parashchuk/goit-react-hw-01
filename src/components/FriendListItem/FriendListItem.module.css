@@ -1,0 +1,21 @@
+.user_logo {
+  margin: 0 auto;
+}
+.user_name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.user_on {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: green;
+}
+.user_off {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: red;
+}

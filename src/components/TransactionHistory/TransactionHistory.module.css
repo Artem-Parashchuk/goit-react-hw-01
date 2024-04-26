@@ -1,0 +1,36 @@
+.wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  max-width: 600px;
+  width: 100%;
+}
+
+th,
+td {
+  width: 33.33%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: box-shadow .2s ease;
+
+  &:hover {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+}
+tr {
+  width: 100%;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
